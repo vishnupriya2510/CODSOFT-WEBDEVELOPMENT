@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .header {
+            background: #de3163;
+            color: white;
+            padding: 20px;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?nature') no-repeat center center/cover;
+            color: black;
+            padding: 100px 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .feature-box {
+            background: light pink;
+            padding: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);            
+            border-radius: 10px;
+            width: 30%;
+        }
+        .cta {
+            background: #333;
+            color: white;
+            padding: 50px;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Landing Page!!</h1>
+    </div>
+    <div class="hero">
+        <h2>Welcome to Our Website</h2>
+        <p>Discover amazing features and seamless user experience</p>
+    </div>
+    <div class="features">
+        <div class="feature-box">
+            <h3>Feature 1</h3>
+            <p>High-quality service</p>
+        </div>
+        <div class="feature-box">
+            <h3>Feature 2</h3>
+            <p>Easy to use interface</p>
+        </div>
+        <div class="feature-box">
+            <h3>Feature 3</h3>
+            <p>Fully responsive design</p>
+        </div>
+    </div>
+    <div class="cta">
+        <h2>Get Started Today!</h2>
+        <a href="#" class="btn">Sign Up</a>
+    </div>
+</body>
+</html>
